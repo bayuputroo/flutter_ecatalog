@@ -75,23 +75,23 @@ class _$CategoriesEventCopyWithImpl<$Res, $Val extends CategoriesEvent>
 }
 
 /// @nodoc
-abstract class _$$_StartedCopyWith<$Res> {
-  factory _$$_StartedCopyWith(
-          _$_Started value, $Res Function(_$_Started) then) =
-      __$$_StartedCopyWithImpl<$Res>;
+abstract class _$$StartedImplCopyWith<$Res> {
+  factory _$$StartedImplCopyWith(
+          _$StartedImpl value, $Res Function(_$StartedImpl) then) =
+      __$$StartedImplCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$_StartedCopyWithImpl<$Res>
-    extends _$CategoriesEventCopyWithImpl<$Res, _$_Started>
-    implements _$$_StartedCopyWith<$Res> {
-  __$$_StartedCopyWithImpl(_$_Started _value, $Res Function(_$_Started) _then)
-      : super(_value, _then);
+class __$$StartedImplCopyWithImpl<$Res>
+    extends _$CategoriesEventCopyWithImpl<$Res, _$StartedImpl>
+    implements _$$StartedImplCopyWith<$Res> {
+  __$$StartedImplCopyWithImpl(
+      _$StartedImpl _value, $Res Function(_$StartedImpl) _then)
 }
 
 /// @nodoc
-class _$_Started implements _Started {
-  const _$_Started();
+class _$StartedImpl implements _Started {
+  const _$StartedImpl();
 
   @override
   String toString() {
@@ -101,7 +101,7 @@ class _$_Started implements _Started {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$_Started);
+         (other.runtimeType == runtimeType && other is _$StartedImpl);
   }
 
   @override
@@ -175,25 +175,24 @@ abstract class _Started implements CategoriesEvent {
 }
 
 /// @nodoc
-abstract class _$$_GetCategoriesCopyWith<$Res> {
-  factory _$$_GetCategoriesCopyWith(
-          _$_GetCategories value, $Res Function(_$_GetCategories) then) =
-      __$$_GetCategoriesCopyWithImpl<$Res>;
+abstract class _$$GetCategoriesImplCopyWith<$Res> {
+  factory _$$GetCategoriesImplCopyWith(
+          _$GetCategoriesImpl value, $Res Function(_$GetCategoriesImpl) then) =
+      __$$GetCategoriesImplCopyWithImpl<$Res>;
 }
 
 /// @nodoc
-class __$$_GetCategoriesCopyWithImpl<$Res>
-    extends _$CategoriesEventCopyWithImpl<$Res, _$_GetCategories>
-    implements _$$_GetCategoriesCopyWith<$Res> {
-  __$$_GetCategoriesCopyWithImpl(
-      _$_GetCategories _value, $Res Function(_$_GetCategories) _then)
+class __$$GetCategoriesImplCopyWithImpl<$Res>
+    extends _$CategoriesEventCopyWithImpl<$Res, _$GetCategoriesImpl>
+    implements _$$GetCategoriesImplCopyWith<$Res> {
+  __$$GetCategoriesImplCopyWithImpl(
+      _$GetCategoriesImpl _value, $Res Function(_$GetCategoriesImpl) _then)
       : super(_value, _then);
 }
 
 /// @nodoc
-class _$_GetCategories implements _GetCategories {
-  const _$_GetCategories();
-
+class _$GetCategoriesImpl implements _GetCategories {
+  const _$GetCategoriesImpl();
   @override
   String toString() {
     return 'CategoriesEvent.getCategories()';
@@ -202,7 +201,7 @@ class _$_GetCategories implements _GetCategories {
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
-        (other.runtimeType == runtimeType && other is _$_GetCategories);
+        (other.runtimeType == runtimeType && other is _$GetCategoriesImpl); 
   }
 
   @override
@@ -272,7 +271,7 @@ class _$_GetCategories implements _GetCategories {
 }
 
 abstract class _GetCategories implements CategoriesEvent {
-  const factory _GetCategories() = _$_GetCategories;
+ const factory _GetCategories() = _$GetCategoriesImpl;
 }
 
 /// @nodoc
