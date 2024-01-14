@@ -6,6 +6,7 @@ import 'package:flutter_fic7_app/bloc/products/products_bloc.dart';
 import 'package:flutter_fic7_app/data/datasources/auth_local_datasource.dart';
 import 'package:flutter_fic7_app/pages/auth/auth_page.dart';
 import 'package:flutter_fic7_app/pages/dashboard/dashboard_page.dart';
+import 'package:flutter_fic7_app/bloc/checkout/checkout_bloc.dart';
 import 'package:flutter_fic7_app/pages/splash/splash_page.dart';
 import 'package:flutter_fic7_app/pages/utils/light_themes.dart';
 
